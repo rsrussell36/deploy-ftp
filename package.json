@@ -19,7 +19,7 @@
     "continuous integration",
     "ftps"
   ],
-  "author": "Sam Kirkland",
+  "author": "Abu Sayed",
   "license": "MIT",
   "dependencies": {
     "@actions/core": "^1.6.0",
