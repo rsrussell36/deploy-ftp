@@ -4,8 +4,8 @@
 
 Automate deploying websites and more with this GitHub action. **It's free!**
 
-![FTP test](https://github.com/rsrussell36/FTP-Deploy-Action/workflows/FTP%20Test/badge.svg)
-![FTPS test](https://github.com/rsrussell36/FTP-Deploy-Action/workflows/FTPS%20Test/badge.svg)
+![FTP test](https://github.com/rsrussell36/deploy-ftp/workflows/FTP%20Test/badge.svg)
+![FTPS test](https://github.com/rsrussell36/deploy-ftp/workflows/FTPS%20Test/badge.svg)
 
 ---
 
@@ -23,7 +23,7 @@ jobs:
       uses: actions/checkout@v2
     
     - name: 📂 Sync files
-      uses: rsrussell36/FTP-Deploy-Action@4.2.0
+      uses: rsrussell36/deploy-ftp@4.2.0
       with:
         server: ftp.rsrussell36.com
         username: myFtpUserName
@@ -98,7 +98,7 @@ jobs:
         npm run build
     
     - name: 📂 Sync files
-      uses: rsrussell36/FTP-Deploy-Action@4.2.0
+      uses: rsrussell36/deploy-ftp@4.2.0
       with:
         server: ftp.rsrussell36.com
         username: myFtpUserName
@@ -118,7 +118,7 @@ jobs:
       uses: actions/checkout@v2
 
     - name: 📂 Sync files
-      uses: rsrussell36/FTP-Deploy-Action@4.2.0
+      uses: rsrussell36/deploy-ftp@4.2.0
       with:
         server: ftp.rsrussell36.com
         username: myFtpUserName
@@ -141,7 +141,7 @@ jobs:
       uses: actions/checkout@v2
 
     - name: 📂 Sync files
-      uses: rsrussell36/FTP-Deploy-Action@4.2.0
+      uses: rsrussell36/deploy-ftp@4.2.0
       with:
         server: ftp.rsrussell36.com
         username: myFtpUserName
@@ -163,7 +163,7 @@ jobs:
       uses: actions/checkout@v2
 
     - name: 📂 Sync files
-      uses: rsrussell36/FTP-Deploy-Action@4.2.0
+      uses: rsrussell36/deploy-ftp@4.2.0
       with:
         server: ftp.rsrussell36.com
         username: myFtpUserName
@@ -187,7 +187,7 @@ if you overwrite the default value you will probably want to respecify them
 
 ---
 
-_Want another example? Let me know by creating a [github issue](https://github.com/rsrussell36/FTP-Deploy-Action/issues/new)_
+_Want another example? Let me know by creating a [github issue](https://github.com/rsrussell36/deploy-ftp/issues/new)_
 
 ---
 
@@ -195,42 +195,42 @@ _Want another example? Let me know by creating a [github issue](https://github.c
 
 If you appreciate this github action give it a :star: or show off with one of the badges below. Feel free to edit the text or color.
 
-[<img alt="Deployed with FTP Deploy Action" src="https://img.shields.io/badge/Deployed With-FTP DEPLOY ACTION-%3CCOLOR%3E?style=for-the-badge&color=0077b6">](https://github.com/rsrussell36/FTP-Deploy-Action)
+[<img alt="Deployed with FTP Deploy Action" src="https://img.shields.io/badge/Deployed With-FTP DEPLOY ACTION-%3CCOLOR%3E?style=for-the-badge&color=0077b6">](https://github.com/rsrussell36/deploy-ftp)
 
 ```md
-[<img alt="Deployed with FTP Deploy Action" src="https://img.shields.io/badge/Deployed With-FTP DEPLOY ACTION-%3CCOLOR%3E?style=for-the-badge&color=0077b6">](https://github.com/rsrussell36/FTP-Deploy-Action)
+[<img alt="Deployed with FTP Deploy Action" src="https://img.shields.io/badge/Deployed With-FTP DEPLOY ACTION-%3CCOLOR%3E?style=for-the-badge&color=0077b6">](https://github.com/rsrussell36/deploy-ftp)
 ```
 
-[<img alt="Deployed with FTP Deploy Action" src="https://img.shields.io/badge/Deployed With-FTP DEPLOY ACTION-%3CCOLOR%3E?style=for-the-badge&color=2b9348">](https://github.com/rsrussell36/FTP-Deploy-Action)
+[<img alt="Deployed with FTP Deploy Action" src="https://img.shields.io/badge/Deployed With-FTP DEPLOY ACTION-%3CCOLOR%3E?style=for-the-badge&color=2b9348">](https://github.com/rsrussell36/deploy-ftp)
 
 ```md
-[<img alt="Deployed with FTP Deploy Action" src="https://img.shields.io/badge/Deployed With-FTP DEPLOY ACTION-%3CCOLOR%3E?style=for-the-badge&color=2b9348">](https://github.com/rsrussell36/FTP-Deploy-Action)
+[<img alt="Deployed with FTP Deploy Action" src="https://img.shields.io/badge/Deployed With-FTP DEPLOY ACTION-%3CCOLOR%3E?style=for-the-badge&color=2b9348">](https://github.com/rsrussell36/deploy-ftp)
 ```
 
-[<img alt="Deployed with FTP Deploy Action" src="https://img.shields.io/badge/Deployed With-FTP DEPLOY ACTION-%3CCOLOR%3E?style=for-the-badge&color=d00000">](https://github.com/rsrussell36/FTP-Deploy-Action)
+[<img alt="Deployed with FTP Deploy Action" src="https://img.shields.io/badge/Deployed With-FTP DEPLOY ACTION-%3CCOLOR%3E?style=for-the-badge&color=d00000">](https://github.com/rsrussell36/deploy-ftp)
 
 ```md
-[<img alt="Deployed with FTP Deploy Action" src="https://img.shields.io/badge/Deployed With-FTP DEPLOY ACTION-%3CCOLOR%3E?style=for-the-badge&color=d00000">](https://github.com/rsrussell36/FTP-Deploy-Action)
+[<img alt="Deployed with FTP Deploy Action" src="https://img.shields.io/badge/Deployed With-FTP DEPLOY ACTION-%3CCOLOR%3E?style=for-the-badge&color=d00000">](https://github.com/rsrussell36/deploy-ftp)
 ```
 
 ---
 
-[<img alt="Website Deployed for Free with FTP Deploy Action" src="https://img.shields.io/badge/Website deployed for free with-FTP DEPLOY ACTION-%3CCOLOR%3E?style=for-the-badge&color=297FA9">](https://github.com/rsrussell36/FTP-Deploy-Action)
+[<img alt="Website Deployed for Free with FTP Deploy Action" src="https://img.shields.io/badge/Website deployed for free with-FTP DEPLOY ACTION-%3CCOLOR%3E?style=for-the-badge&color=297FA9">](https://github.com/rsrussell36/deploy-ftp)
 
 ```md
-[<img alt="Website Deployed for Free with FTP Deploy Action" src="https://img.shields.io/badge/Website deployed for free with-FTP DEPLOY ACTION-%3CCOLOR%3E?style=for-the-badge&color=297FA9">](https://github.com/rsrussell36/FTP-Deploy-Action)
+[<img alt="Website Deployed for Free with FTP Deploy Action" src="https://img.shields.io/badge/Website deployed for free with-FTP DEPLOY ACTION-%3CCOLOR%3E?style=for-the-badge&color=297FA9">](https://github.com/rsrussell36/deploy-ftp)
 ```
 
-[<img alt="Website Deployed for Free with FTP Deploy Action" src="https://img.shields.io/badge/Website deployed for free with-FTP DEPLOY ACTION-%3CCOLOR%3E?style=for-the-badge&color=2b9348">](https://github.com/rsrussell36/FTP-Deploy-Action)
+[<img alt="Website Deployed for Free with FTP Deploy Action" src="https://img.shields.io/badge/Website deployed for free with-FTP DEPLOY ACTION-%3CCOLOR%3E?style=for-the-badge&color=2b9348">](https://github.com/rsrussell36/deploy-ftp)
 
 ```md
-[<img alt="Website Deployed for Free with FTP Deploy Action" src="https://img.shields.io/badge/Website deployed for free with-FTP DEPLOY ACTION-%3CCOLOR%3E?style=for-the-badge&color=2b9348">](https://github.com/rsrussell36/FTP-Deploy-Action)
+[<img alt="Website Deployed for Free with FTP Deploy Action" src="https://img.shields.io/badge/Website deployed for free with-FTP DEPLOY ACTION-%3CCOLOR%3E?style=for-the-badge&color=2b9348">](https://github.com/rsrussell36/deploy-ftp)
 ```
 
-[<img alt="Website Deployed for Free with FTP Deploy Action" src="https://img.shields.io/badge/Website deployed for free with-FTP DEPLOY ACTION-%3CCOLOR%3E?style=for-the-badge&color=d00000">](https://github.com/rsrussell36/FTP-Deploy-Action)
+[<img alt="Website Deployed for Free with FTP Deploy Action" src="https://img.shields.io/badge/Website deployed for free with-FTP DEPLOY ACTION-%3CCOLOR%3E?style=for-the-badge&color=d00000">](https://github.com/rsrussell36/deploy-ftp)
 
 ```md
-[<img alt="Website Deployed for Free with FTP Deploy Action" src="https://img.shields.io/badge/Website deployed for free with-FTP DEPLOY ACTION-%3CCOLOR%3E?style=for-the-badge&color=d00000">](https://github.com/rsrussell36/FTP-Deploy-Action)
+[<img alt="Website Deployed for Free with FTP Deploy Action" src="https://img.shields.io/badge/Website deployed for free with-FTP DEPLOY ACTION-%3CCOLOR%3E?style=for-the-badge&color=d00000">](https://github.com/rsrussell36/deploy-ftp)
 ```
 
 ---
